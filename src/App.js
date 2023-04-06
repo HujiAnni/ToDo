@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div className="app">
+      <h1>TO DO LIST</h1>
       <div className="todo-list">
         {todos.map((todo, i) => (
           <Todo key={i} index={i} todo={todo} remove={removeTodo} />
